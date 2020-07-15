@@ -1,0 +1,58 @@
+Data types in JS:
+
+JavaScript variables can hold many data types: numbers, strings, objects and more:
+ex:
+var length=12;//Number datatype
+var name="Joe";//String datatype
+var x= {firstName:"John", lastName:"Doe"}; //objects
+
+1)JavaScript Strings:
+
+A string is a series of characters like "Letsupgrade".
+
+Strings are written with quotes. You can use single or double quotes:
+Example
+var string1 = "Hello World";   // Using double quotes
+var string2 = 'Javascript';   // Using single quotes
+
+2)JavaScript Numbers:
+The number type represents both integer and floating point numbers.
+
+Numbers can be written with, or without decimals:
+
+Example
+var x1 = 34.00;     // Written with decimals
+var x2 = 34;        // Written without decimals
+
+3)JavaScript Booleans:
+Booleans can only have two values: true or false.
+This can be used to store yes/no values : true as yes and false as no.
+
+Example
+var x = 5;
+var y = 5;
+var z = 6;
+(x == y)       // Returns true
+(y == z)       // Returns false
+Booleans are often used in conditional testing.
+
+4)JavaScript Arrays:
+JavaScript arrays are written with square brackets.
+
+Array items are separated by commas.
+
+Example
+var shape = ["Square", "Traingle", "Rectangle"];
+Array indexes are zero-based, which means the first item is [0], second is [1], and so on.
+
+5)JavaScript Objects:
+JavaScript objects are written with curly braces {}.
+
+Object properties are written as name:value pairs, separated by commas.
+
+Example
+var person = {firstName:"John", lastName:"Cena", age:50, eyeColor:"brown"};
+The object (person) in the example above has 4 properties: firstName, lastName, age, and eyeColor.
+
+6)Date:
+var date1 = new Date(0); // Thu Jan 01 1970 05:30:00 var date2 = new Date(1000); // Thu Jan 01 1970 05:30:01 var date3 = new Date(5000); // Thu Jan 01 1970 05:30:05 
